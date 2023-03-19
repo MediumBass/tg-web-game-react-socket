@@ -26,7 +26,7 @@ const ModalNewSkill = ({active, setActive, savePlayerSkills, items ,FirstSkill, 
     }, [])
 
     const   postSkill = (skillId) => {
-        console.log("funkcia otrabotaal")
+
        switch (items[skillId].attackType) {
            case "statup":
                switch (items[skillId].stat) {
