@@ -1,0 +1,14 @@
+.footer {
+    font-size: 26px;
+    height: 500px;
+    width: 618px;
+
+    position: relative;
+
+}
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: start;
+    justify-content: space-between;
+}

@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.horizont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.vertic{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.monster{
+  font-size: 20px;
+}
+
+.App-main {
+background-image: url("https://cdn.discordapp.com/attachments/713472920650776657/1081557553303007282/image.png");
+  background-size: cover;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+}
+
+@media screen and (max-width: 1080px){
+  .App-main{
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: lightgray;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

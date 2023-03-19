@@ -1,0 +1,19 @@
+.obtained{
+    display: flex;
+    padding-left: 5px;
+    --b: 3px;   /* border thickness */
+    width: 180px;
+    --color: lightgray;
+    height: 60px;
+    color: lightgray;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    outline: var(--b) solid #0000;
+
+    border: 0;
+    outline-color: var(--color);
+    outline-offset: .05em;
+
+    align-items: center;
+    justify-content: center;
+}

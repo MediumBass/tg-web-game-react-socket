@@ -1,0 +1,16 @@
+.newSkill{
+    padding: 5px;
+    --b: 3px;   /* border thickness */
+    --color: lightgray;
+    margin-bottom: 15px;
+    color: lightgray;
+
+
+    outline: var(--b) solid #0000;
+
+    border: 0;
+    outline-color: var(--color);
+    outline-offset: .05em;
+
+
+}
