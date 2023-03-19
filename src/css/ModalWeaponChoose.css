@@ -8,8 +8,8 @@
     color: lightgray;
 }
 .modal {
-    height: 600px;
-    width: 400px;
+    height: 80vh;
+    width: 100vw;
     background-color: rgba(0,0,0,0.4);
     position: fixed;
     top: 0;
