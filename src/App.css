@@ -55,8 +55,7 @@ background-image: url("https://cdn.discordapp.com/attachments/713472920650776657
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: lightgray;
-  width: 360px;
-  height: 800px;
+
 }
 
 .App-link {
