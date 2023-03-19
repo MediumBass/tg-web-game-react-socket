@@ -23,9 +23,10 @@
     transform: scale(1);
 }
 .modal__content {
-    width:  600px;
-    padding: 20px;
-    border-radius: 12px;
+    height: 100%;
+    width: 100vw;
+    padding: 10px;
+    border-radius: 6px;
     background-image: url("https://cdn.discordapp.com/attachments/713472920650776657/1081931117755650048/image.png");
     background-size: cover;
     color: lightgray;
