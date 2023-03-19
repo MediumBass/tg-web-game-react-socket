@@ -92,7 +92,7 @@ function App() {
         })
     }, [])
     useEffect(() => {
-        fetch("http://localhost:8000/skilllist")
+        fetch("https://tggame-server.herokuapp.com/skilllist")
             .then(res => res.json())
             .then(
                 (result) => {

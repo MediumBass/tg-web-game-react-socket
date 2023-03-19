@@ -30,7 +30,7 @@ let currentStats
     const [items, setItems] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:8000/weapons")
+        fetch("https://tggame-server.herokuapp.com/weapons")
             .then(res => res.json())
             .then(
                 (result) => {
