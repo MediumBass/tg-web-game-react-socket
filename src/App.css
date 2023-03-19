@@ -32,9 +32,6 @@ background-image: url("https://cdn.discordapp.com/attachments/713472920650776657
   flex-direction: column;
   justify-content: flex-end;
   flex-wrap: nowrap;
-  height: 100vh;
-  width: 100vw;
-
 }
 
 @media screen and (max-width: 1080px){
@@ -56,7 +53,6 @@ background-image: url("https://cdn.discordapp.com/attachments/713472920650776657
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: lightgray;
-
 }
 
 .App-link {

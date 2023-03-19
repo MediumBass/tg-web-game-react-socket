@@ -14,7 +14,7 @@ const Player = ({item, playersHP}) => {
     return (
         <div>
             <Avatar/>
-            <p>{item.userName} {item.name} {playersHP}\{item.hp}</p>
+            <p>{item.name} {playersHP}\{item.hp}</p>
             <HPBar hp={playersHP} maxHp={item.hp} />
         </div>
     );
