@@ -32,6 +32,8 @@ background-image: url("https://cdn.discordapp.com/attachments/713472920650776657
   flex-direction: column;
   justify-content: flex-end;
   flex-wrap: nowrap;
+  width: 360px;
+  height: 800px;
 }
 
 @media screen and (max-width: 1080px){
