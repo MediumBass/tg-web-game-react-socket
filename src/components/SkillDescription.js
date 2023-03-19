@@ -163,7 +163,7 @@ const becomeSpectator = () =>{
             <p>{props.desc}      [{props.manaCost}]</p>
             <div className={"horizont"}>
                 <p> MANA    :{playersMana}/{props.playerStats.manaPool}</p>
-                <button onClick={DealSkill} disabled={!isActive||playersMana<props.manaCost||props.playerIsDead||props.manaCost===undefined} className={"button-89"}>Use Skill</button>
+                <button onClick={DealSkill} disabled={!isActive||playersMana<props.manaCost||props.playerIsDead||props.manaCost===undefined||!props.gameStarted} className={"button-89"}>Use Skill</button>
             </div>
 
             <ModalDeath active={modalDead} becomeSpectator={becomeSpectator} AllTimeDamage={AllTimeDamage} />

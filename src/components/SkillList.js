@@ -111,6 +111,7 @@ const SkillList = ({playerStats, monster,currentHp,calculateCurrentHp, Calculate
                                   endOfTheRound={endOfTheRound} calculateCurrentHp={calculateCurrentHp} statsChanged={statsChanged}
                                   playerStats={playerStats} item={CurrentItem} CalculateDamage={CalculateDamage} trinket={trinket}
                                   modalDeath={modalDeath} setModalDeath={setModalDeath} playerIsDead={playerIsDead} setPlayerIsDead={setPlayerIsDead}
+                                  gameStarted={gameStarted}
                                    />
                 <div className={"wrapper"}>
                     {obtainedSkills.map(item => (
