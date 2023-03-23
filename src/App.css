@@ -45,8 +45,8 @@ background-image: url("https://cdn.discordapp.com/attachments/713472920650776657
 }
 @media screen and (max-width: 1080px) {
   .App-main {
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     background-image: url("https://cdn.discordapp.com/attachments/713472920650776657/1081557553303007282/image.png");
     background-size: cover;
     font-size: 12px;
@@ -58,8 +58,8 @@ background-image: url("https://cdn.discordapp.com/attachments/713472920650776657
 
   .App-header {
     background-color: #282c34;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
