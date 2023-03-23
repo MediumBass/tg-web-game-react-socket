@@ -73,7 +73,7 @@
         color: lightgray;
     }
     .modal {
-        height: 100%;
+
         width: 100%;
         background-color: rgba(0,0,0,0.4);
         position: fixed;
@@ -85,8 +85,8 @@
         transform: scale(0);
     }
     .modal__content {
-        height: 100%;
-        width: 80%;
+
+        width: 90%;
         padding: 20px;
         border-radius: 12px;
         background-image: url("https://cdn.discordapp.com/attachments/713472920650776657/1081931117755650048/image.png");
