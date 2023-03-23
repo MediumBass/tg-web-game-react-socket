@@ -6,7 +6,7 @@ const Monster = (props) => {
 
         return (
             <div className={"Monster"}>
-                <img src={props.img} alt={"monster"} width={400} height={456}></img>
+                <img className={"monster__img"} src={props.img} alt={"monster"} ></img>
                 <p>{props.name}  {props.currentHP}/ {props.maxhp}</p>
                 <HPBar hp={props.currentHP} maxHp={props.maxhp} width={30} />
 
