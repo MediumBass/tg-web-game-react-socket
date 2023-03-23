@@ -8,7 +8,7 @@ const Monster = (props) => {
             <div className={"Monster"}>
                 <img src={props.img} alt={"monster"} width={400} height={456}></img>
                 <p>{props.name}  {props.currentHP}/ {props.maxhp}</p>
-                <HPBar hp={props.currentHP} maxHp={props.maxhp} width={400} />
+                <HPBar hp={props.currentHP} maxHp={props.maxhp} width={30} />
 
             </div>
         );
