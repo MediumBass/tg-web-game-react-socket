@@ -18,3 +18,7 @@
     align-items: center;
     justify-content: center;
 }
+.obtained:active {
+    background: var(--color);
+    color: #fff;
+}

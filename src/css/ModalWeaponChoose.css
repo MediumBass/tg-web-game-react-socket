@@ -35,7 +35,7 @@
 .button89{
     --b: 3px;   /* border thickness */
     --s: .45em; /* size of the corner */
-    --color: white;
+    --color: #fcfafa;
     padding: calc(.5em + var(--s)) calc(.9em + var(--s));
     color: white;
 
