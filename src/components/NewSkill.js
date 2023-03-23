@@ -4,7 +4,7 @@ let color
 const NewSkill = ({skill, chooseSkill,colors}) => {
 color = colors[skill.price]
     return (
-        <div className={"newSkill"} onClick={()=> chooseSkill(skill.id)}>
+        <div className={"newSkill"} onClick={()=> chooseSkill(skill.id)} style={{fontSize:12}}>
             <b style={{color:color}}>{skill.name}</b>
             <p>{skill.desc}</p>
         </div>
