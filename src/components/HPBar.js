@@ -5,7 +5,7 @@ const HpBar = (props) => {
 
     return (
         <div>
-            <div class="health-bar" style={{width: `${props.width}%`}}>
+            <div class="health-bar" style={{width: `${props.width}vw`}}>
                 <div class="bar" style={{ width: `${barWidth}%` }}></div>
                 <div class="hit" style={{ width: `${0}%` }}></div>
 
