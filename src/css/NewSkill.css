@@ -14,3 +14,7 @@
 
 
 }
+.newSkill:active {
+    background: var(--color);
+    color: #fff;
+}
