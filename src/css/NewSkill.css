@@ -1,10 +1,10 @@
 .newSkill{
-    padding: 5px;
+    padding: 3px;
     --b: 3px;   /* border thickness */
     --color: lightgray;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     color: lightgray;
-
+    font-size: 7px;
 
     outline: var(--b) solid #0000;
 
