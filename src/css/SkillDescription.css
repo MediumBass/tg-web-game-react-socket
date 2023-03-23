@@ -24,7 +24,7 @@ margin-bottom: 15px;
             var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
     transition: .3s linear, color 0s, background-color 0s;
     outline: var(--b) solid #0000;
-    font-size: 24px;
+    font-size: 12px;
     border: 0;
     outline-color: white;
     outline-offset: .05em;
