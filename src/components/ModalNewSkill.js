@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
 import "../css/ModalWeaponChoose.css"
 import NewSkill from "./NewSkill";
-import socket from "../socket";
+import {socket} from "../socket";
 let colors =[" ","white", "LightBlue","RebeccaPurple","Gold","yellow","green"]
 let currentStats
 

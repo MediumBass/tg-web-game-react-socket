@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import "../css/Players.css"
 
 import Player from "./Player";
-import socket from "../socket";
+import {socket} from "../socket";
 let index
 let Message;
 let finalDmg;

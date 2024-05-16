@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import Weapon from "./Weapon";
-import socket from "../socket";
+import {baseURL, socket} from "../socket";
 import "../css/ModalWeaponChoose.css"
 
 const ModalWeaponChoose = ({active, setActive, savePlayerStats, addUniSkills}) => {
@@ -30,7 +30,7 @@ let currentStats
     const [items, setItems] = useState([]);
 
     useEffect(() => {
-        fetch("https://tggame-server-65b0aa39e712.herokuapp.com/weapons")
+        fetch(baseURL+"/weapons")
             .then(res => res.json())
             .then(
                 (result) => {

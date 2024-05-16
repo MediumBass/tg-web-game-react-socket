@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import "../css/ModalWeaponChoose.css"
-import socket from "../socket";
+import {socket} from "../socket";
 
 //0 lose, 1 victory
 let img="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Skull-Icon.svg/2048px-Skull-Icon.svg.png"

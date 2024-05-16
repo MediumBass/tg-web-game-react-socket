@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import './SkillList.css';
 import SkillDescription from "./SkillDescription";
 import ObtainedSkills from "./ObtainedSkills";
-import socket from "../socket";
+import {socket} from "../socket";
 import '../index.css';
 import ModalNewSkill from "./ModalNewSkill";
 import ModalGameEnd from "./ModalGameEnd";
@@ -20,7 +20,7 @@ const SkillList = ({playerStats, monster,currentHp,calculateCurrentHp, Calculate
     const [obtainedSkills, setObtainedSkills] = useState([{
         "id": 0,
         "classId": 0,
-        "name": "tychka",
+        "name": "Slash",
         "dmg": "0",
         "cd": 1,
         "price": 0,

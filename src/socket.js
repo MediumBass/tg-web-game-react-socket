@@ -1,4 +1,5 @@
 import io from 'socket.io-client'
-const socket= io("https://tggame-server-65b0aa39e712.herokuapp.com/");
+export const baseURL="http://localhost:8080"
+export const socket= io(baseURL);
 
-export default socket;
+

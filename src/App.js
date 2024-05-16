@@ -1,6 +1,6 @@
 import './App.css';
 import React, {useEffect, useState} from 'react';
-import socket from "./socket";
+import {socket, baseURL} from "./socket";
 import Players from "./components/Players";
 import Monster from "./components/Monster";
 import SkillList from "./components/SkillList";
@@ -92,7 +92,7 @@ function App() {
         })
     }, [])
     useEffect(() => {
-        fetch("https://tggame-server-65b0aa39e712.herokuapp.com/skilllist")
+        fetch(baseURL+"/skilllist")
             .then(res => res.json())
             .then(
                 (result) => {
